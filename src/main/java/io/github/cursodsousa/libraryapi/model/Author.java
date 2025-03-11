@@ -4,6 +4,7 @@ import jakarta.persistence.*;
 import lombok.*;
 
 import java.time.LocalDate;
+import java.util.List;
 import java.util.UUID;
 
 @Entity
@@ -27,4 +28,9 @@ public class Author {
 
     @Column( name = "nationality", length = 50, nullable = false)
     private String nationality;
+
+    @OneToMany(mappedBy = "author")
+    private List<Book> books;
+
+
 }
