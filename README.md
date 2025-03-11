@@ -10,7 +10,7 @@ Esta é uma API de Biblioteca construída com Java e Spring Boot. O projeto est�
 
 ## Branches
 
-Cada aula do curso é implementada em uma branch separada. A branch atual é `Aula-52`. Você pode alternar entre as branches para ver a implementação de diferentes aulas.
+Cada aula do curso é implementada em uma branch separada. A branch atual é a `main` que atualmente é referente a aula 43, ela recebrá atualizações após a finalização do projeto. Você pode alternar entre as branches para ver  o que foi implementado com o passar das aulas.
 
 ## Configuração
 
