@@ -60,7 +60,7 @@ public class AuthorRepositoryTests {
     }
     @Test
     public void deleteTest(){
-        var id = UUID.fromString("5d3530c6-0006-40b7-9770-9cf78a78082d");
+        var id = UUID.fromString("f81e4a83-4c6e-4bb4-9712-4c01ef8a2344");
         var flavia = authorRepository.findById(id).get();
         authorRepository.delete(flavia);
     }
